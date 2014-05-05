@@ -1,31 +1,144 @@
-li {
-	float: left;
-	list-style-type: none;
-	margin: 0;
-	padding: 10px;
+html, body {
+	width: 100%;
+	padding: 0;
+	margin:0;
+	height:100%;
+	background: yellow;
 }
-
 
 header {
-	text-align: center;
-	font-family: arial;
-	font-weight: 600;
-	color: #c50000;
-	padding: 20px;
-	background: #E0E0E0;	
+	width: 100%;
+	height: 20%;
+	position: relative;
+	background: black;
 }
 
-#tagLine {
+.allHeaderItems {
+	width: 100%;
+}
+
+#banner {
+	height: 80%;
+}
+
+.titleLine{
 	position: absolute;
-	right: 0px;
-	top: 50%;
+	top: 48%;
 	line-height: 1.6em;
 	margin-top: -0.8em;
+	background: red;
+	width: 20%;
+	right: 0px;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	font-size: 18px;
+	font-weight: 200;
 }
 
-.button {
+/*h1 a {
+	background-image: url('images/logo.jpeg');
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	width: 258px;
+	height: 39px;
+	margin-top: 10px;
+	margin-left: 20px;
 	display: block;
-	width: 100px;
+}*/
+
+/*.logo {
+	display: block;
+	border: none;
+	height: 80%;
+	width: auto;
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	min-height: 100px;
+}*/
+
+
+#mainNav {
+	position: absolute;
+	height: 28px;
+	bottom:0;
+	background: green;
+	width: 100%;
+	margin: 0;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
+nav a {
+	text-decoration: none;
+}
 
+.navButton {
+	float: left;
+	list-style-type: none;
+/*	background: linear-gradient(to bottom, #2799c6 16%, #006599 100%);*/
+	background: white;
+	width: 10%;
+	padding: 5px;
+	height:18px;
+	margin: 0 3px;
+	border: 1px #458EBB;
+	border-radius: 3px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	display: inline-block;
+	text-align: center;
+}
+
+.navButton a {
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+}
+
+.subButton {
+	display: ;
+	padding: 5px 0 0 0;
+ }
+
+.subNavButton {
+/*	list-style-type: none;
+	background: linear-gradient(to bottom, #2799c6 16%, #006599 100%);
+	width: 110%;
+	padding: 5px;
+	height:18px;
+	margin: 0 0px;
+	border: 1px #458EBB;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;*/
+
+	display: block;
+	height: 20px;
+	width: 100%;
+	border: 1px #458EBB;
+	vertical-align: middle;
+	background: gray;
+	padding: 4px 5px 4px 5px;
+	margin-right: 3px;
+	margin-left: -5px;
+
+}
+
+/*#mainNav>li:first-child {
+	border-left: ridge;
+}*/
+
+footer {
+	position: fixed;
+	text-align: center;
+	background: gray;
+	color: white;
+	bottom: 0px;
+	font-size: 0.8em;
+	display: block;
+	width: 100%;
+	left: 0px;
+}
